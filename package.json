@@ -1,7 +1,7 @@
 {
   "scripts": {
     "cm": "cz",
-    "prepare": "dotnet tools restore && dotnet husky install"
+    "prepare": "dotnet tool restore && dotnet husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
